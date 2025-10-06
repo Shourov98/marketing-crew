@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 
 _ = load_dotenv()
 llm = LLM(
-    model="gemini/gemini-2.0-flash",
+    provider="openai",
+    model="gpt-4o-mini",
     temperature=0.7,
 )
 
